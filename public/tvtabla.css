@@ -1,14 +1,18 @@
 body {
     background-color: bisque;
-    text-align: center;
+    
     
   }
-  
+  .channel-title{
+      text-align:center;
+      padding:15px;
+      font-weight: bolder;
+  }
   
   .program-list {
-    
+    text-align: center;
     background-color: white;
-    width:50%;
+    
     list-style-type: none;
 
     padding: 0;
@@ -23,4 +27,48 @@ body {
   .h1 {
     border-top-style: solid;
     
+  }
+
+  .menu{
+      background-color:rgba(197, 124, 29, 0.493);
+      
+        position: absolute;
+        width: 300px;
+        height:135%;
+        background-color: #333;
+
+  }
+  
+  .menu__link{
+    display:block;
+    text-decoration: none;
+    padding:15px;
+    color:white;
+    
+
+  }
+  .menu__link:hover{
+    
+    color:rgb(56, 229, 241);
+    background-color:rgb(95, 95, 95);
+
+  }
+
+  .prog_desc{
+    font-size: 15px;
+    font-size: 1.5vw;
+  }
+
+  .prog_time{
+    font-size: 25px;
+    font-size: 2.5vw;
+  }
+
+  .menubutton{
+      font-size:40px;
+      padding:10px;
+      margin-left:330px;
+      background-color:white;
+      position: absolute;
+      
   }
