@@ -33,9 +33,9 @@ const ProgramList = () => {
 
                             <li className="program-list__item">
 
-                                <h1>{program.time}</h1>
+                                <h2 className="prog_time">{program.time}</h2>
 
-                                <p>{program.description}</p>
+                                <p className="prog_desc">{program.description}</p>
 
                             </li>))}
 
