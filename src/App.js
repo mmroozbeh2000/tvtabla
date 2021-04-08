@@ -1,11 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 import ProgramList from './components/ProgramList';
-import sidebar from './components/sidebar';
+import Sidebar from './components/Sidebar';
 
 function App() {
   return (
-    <div><ProgramList /><sidebar /></div>
+    <div>
+      <Sidebar />
+      <ProgramList />
+    
+    </div>
   );
 }
 
