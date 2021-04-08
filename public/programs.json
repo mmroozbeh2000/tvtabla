@@ -1,0 +1,37 @@
+[
+    {
+        "id": 0,
+        "time": "10:30",
+        "description": "Morgonsoffan"
+    },
+    {
+        "id": 1,
+        "time": "11:00",
+        "description": "klockan 11 tv-program"
+    },
+    {
+        "id": 2,
+        "time": "11:30",
+        "description": "teletubbies performs hamlet"
+    },
+    {
+        "id": 3,
+        "time": "12:30",
+        "description": "ishockey"
+    },
+    {
+        "id": 4,
+        "time": "13:30",
+        "description": "tv studion: the earth is flat"
+    },
+    {
+        "id": 5,
+        "time": "14:30",
+        "description": "The moon; made of cheese?"
+    },
+    {
+        "id": 6,
+        "time": "15:30",
+        "description": "who is gustav and where is the rest of our group?"
+    }
+]

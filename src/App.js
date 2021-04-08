@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import ProgramList from './components/ProgramList';
+import sidebar from './components/sidebar';
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <div><ProgramList /><sidebar /></div>
   );
 }
 
